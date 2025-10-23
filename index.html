@@ -3,36 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Multi-chart Webpage | D3.js</title>
+  <title>T05 Multi-Chart Dashboard</title>
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 
 <body>
   <header>
-    <h1>Energy Consumption & Power Prices Visualisations</h1>
-    <p>This dashboard visualises relationships between TV energy use and market power prices.</p>
+    <h1>Visualising Energy Use & Electricity Prices</h1>
+    <p>This dashboard uses <b>D3.js</b> to explore relationships in energy data — demonstrating scatter, line, bar, and donut charts.</p>
   </header>
 
+  <!-- Scatter Plot -->
   <section id="scatter">
-    <h2>Scatter Plot: Energy Consumption vs Star Rating</h2>
+    <h2>Scatter Plot: TV Energy Consumption vs Star Rating</h2>
+    <p>This chart compares energy consumption (kWh/year) against the efficiency star rating for various TV brands.</p>
   </section>
 
-  <section id="donut">
-    <h2>Donut Chart: Energy Use by Screen Type (All TVs)</h2>
+  <!-- Line Chart -->
+  <section id="line">
+    <h2>Line Chart: Australian Spot Power Prices (1998–2024)</h2>
+    <p>Average annual electricity spot prices across states, highlighting trends over time.</p>
   </section>
 
+  <!-- Bar Chart -->
   <section id="bar">
     <h2>Bar Chart: Energy Use by Screen Type (55-inch TVs)</h2>
+    <p>Compares mean labelled energy consumption among screen technologies for 55-inch televisions.</p>
   </section>
 
-  <section id="line">
-    <h2>Line Chart: Spot Power Prices (1998–2024)</h2>
+  <!-- Donut Chart -->
+  <section id="donut">
+    <h2>Donut Chart: Energy Use Share by Screen Type (All Sizes)</h2>
+    <p>Proportion of total energy consumption across all TV screen technologies combined.</p>
   </section>
 
+  <footer>
+    <p>© 2025 Multi-Chart Dashboard | Created with D3.js | Student: <b>Your Name</b></p>
+  </footer>
+
+  <!-- Load JS Files -->
   <script src="js/scatter.js"></script>
-  <script src="js/donut.js"></script>
-  <script src="js/bar.js"></script>
   <script src="js/line.js"></script>
+  <script src="js/bar55.js"></script>
+  <script src="js/donut.js"></script>
 </body>
 </html>

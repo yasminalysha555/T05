@@ -1,0 +1,68 @@
+/* Base styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  color: #222;
+}
+
+/* Header styling */
+header {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0.3rem;
+  font-size: 2.2rem;
+}
+
+/* Chart sections */
+section {
+  background: white;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1a73e8;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  pointer-events: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  opacity: 0;
+}
+
+/* Footer */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
